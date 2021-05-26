@@ -1,0 +1,3 @@
+com\zensar\aws\service\QueueService.class
+com\zensar\aws\LambdaFunctionHandler.class
+com\zensar\aws\repository\RepositoryImpl.class

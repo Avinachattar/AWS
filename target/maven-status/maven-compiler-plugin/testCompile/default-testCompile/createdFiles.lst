@@ -1,0 +1,14 @@
+com\zensar\aws\TestUtils$DateTimeSerializer.class
+com\zensar\aws\TestUtils$DateTimeDeserializer.class
+com\zensar\aws\TestUtils$UpperCaseRecordsPropertyNamingStrategy.class
+com\zensar\aws\TestUtils$DynamodbEventMixin$RecordMixin.class
+com\zensar\aws\LambdaFunctionHandlerTest.class
+com\zensar\aws\TestContext$1.class
+com\zensar\aws\TestUtils$DynamodbEventMixin.class
+com\zensar\aws\TestUtils$1.class
+com\zensar\aws\TestUtils.class
+com\zensar\aws\TestContext.class
+com\zensar\aws\TestUtils$TestJacksonMapperModule.class
+com\zensar\aws\TestUtils$DynamodbEventMixin$AttributeValueMixIn.class
+com\zensar\aws\TestUtils$DynamodbEventMixin$StreamRecordMixin.class
+com\zensar\aws\TestContext$TestLogger.class

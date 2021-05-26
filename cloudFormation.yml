@@ -1,0 +1,30 @@
+Resources:
+  MYS3Bucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: aws-json-data
+      AccessControl: PublicRead
+  MyQueue: 
+    Type: AWS::SQS::Queue
+    Properties:
+      QueueName: CombinationsQueue
+  MySNSTopic: 
+   Type: AWS::SNS::Topic
+   Properties:
+    TopicName: TopicResponse
+    Subscription:
+    - Endpoint: 01avinachattar@gmail.com
+      Protocol: email
+  MyTable: 
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: Combinations
+      AttributeDefinitions:
+      - AttributeName: ID
+        AttributeType: S
+      KeySchema:
+      - AttributeName: ID
+        KeyType: HASH
+      ProvisionedThroughput:
+        ReadCapacityUnits: '5'
+        WriteCapacityUnits: '5'
